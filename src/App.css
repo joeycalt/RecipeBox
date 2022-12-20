@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: rgb(201, 201, 201);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color :rgb(201, 201, 201);
+}
+
+.navbar-brand, .nav-link {
+  color: white!important;
+}
+
+.navbar-expand-lg {
+  background: red!important;
+}
+
+.title {
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: blue;
+  font-size: 30px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 30%;
+  margin: 80px 0 0 100px;
+
+}
