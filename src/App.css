@@ -35,24 +35,26 @@ html {
   flex-direction: column;
   height: 30%;
   width: 30%;
-  margin: 80px 0 0 100px;
+  margin: 80px 0 0 180px;
   border-radius: 10%;
 }
 
 .info {
   position: relative;
-  left: 350px;
+  left: 850px;
   bottom: 300px;
-  padding: 100px;
+  text-align: left;
 }
 
 .area {
-  font-size: 35px;
+  font-size: 25px;
   margin-top: -230px;
+  margin-left: 400px;
 }
 
 .category {
-  font-size: 28px;
+  font-size: 25px;
+  margin-left: 430px;
 }
 
 .ingredients {
@@ -69,9 +71,9 @@ html {
 }
 
 .ing-div {
-  margin-top: 70px;
+  margin-top: -130px;
 }
 
 .ing-title {
-  font-size: 28px;
+  font-size: 25px;
 }

@@ -5,7 +5,9 @@ import Spinner from 'react-bootstrap/Spinner';
 const Main = () => {
     const [food, setFoods] = useState([])
 
-    
+    function refreshPage() {
+        window.location.reload(false);
+      }
     
     useEffect(() => {
         const url = `https://themealdb.com/api/json/v1/1/random.php/preview`
@@ -20,13 +22,15 @@ const Main = () => {
 
         const loaded = () => {
             return food[0]?.meals?.map((e) => (
+                <>
+                <div>
+                <button onClick={refreshPage}>Click to reload!</button>
+                </div>
                 <div className='main' key={e}>
                 <h1 className='h1-title'>{e.strMeal}</h1>
                 <p>{e.strTags}</p>
                 <img className='image' src={e.strMealThumb} alt=''></img>
                 <div className='info'>
-                <div className='area'>Origin: {e.strArea}</div>
-                <div className='category'>Category: {e.strCategory}</div>
                 <div className='ing-div'>
                 <p className='ing-title'>Main ingredients:</p>
                 <div className='ingredients'>{e.strIngredient1}</div>
@@ -38,7 +42,10 @@ const Main = () => {
                 </p>
                 </div>
                 </div>
+                <div className='area'>Origin: {e.strArea}</div>
+                <div className='category'>Category: {e.strCategory}</div>
                 </div>
+                </>
             ));
           };
         
