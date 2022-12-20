@@ -20,18 +20,20 @@ const Main = () => {
 
         const loaded = () => {
             return food[0]?.meals?.map((e) => (
-                <div key={e}>
+                <div className='main' key={e}>
                 <h1>{e.strMeal}</h1>
                 <img className='image' src={e.strMealThumb} alt=''></img>
-                <p>{e.strArea}</p>
-                <p>{e.strCategory}</p>
-                <p>{e.strIngredient1}</p>
-                <p>{e.strIngredient2}</p>
-                <p>{e.strIngredient3}</p>
-                <p>Click <a href={e.strSource} target='_blank'>Full Recipe</a> for more</p>
+                <div className='info'>
+                <p className='area'>{e.strArea}</p>
+                <p className='category'>{e.strCategory}</p>
+                <p className='ingredients'>{e.strIngredient1}</p>
+                <p className='ingredients'>{e.strIngredient2}</p>
+                <p className='ingredients'>{e.strIngredient3}</p>
+                <p>Click <a className='recipe' href={e.strSource} target='_blank'>Full Recipe</a> for more</p>
+                </div>
                 <p>{e.strTags}</p>
                 <p>
-                    <a href={e.strYoutube} target='_blank'>Youtube</a>
+                    Watch how to video<a className='video' href={e.strYoutube} target='_blank'> here</a>
                 </p>
                 </div>
             ));
