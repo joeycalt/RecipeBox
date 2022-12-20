@@ -23,9 +23,11 @@ html {
   margin-top: 40px;
 }
 
-h1 {
+.h1-title {
   color: blue;
-  font-size: 30px;
+  font-size: 40px;
+  padding-top: 40px;
+  font-weight: 800;
 }
 
 .image {
@@ -39,6 +41,37 @@ h1 {
 
 .info {
   position: relative;
-  left: 200px;
+  left: 350px;
   bottom: 300px;
+  padding: 100px;
+}
+
+.area {
+  font-size: 35px;
+  margin-top: -230px;
+}
+
+.category {
+  font-size: 28px;
+}
+
+.ingredients {
+  font-size: 18px;
+}
+
+.recipe {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.video {
+
+}
+
+.ing-div {
+  margin-top: 70px;
+}
+
+.ing-title {
+  font-size: 28px;
 }

@@ -21,20 +21,23 @@ const Main = () => {
         const loaded = () => {
             return food[0]?.meals?.map((e) => (
                 <div className='main' key={e}>
-                <h1>{e.strMeal}</h1>
+                <h1 className='h1-title'>{e.strMeal}</h1>
+                <p>{e.strTags}</p>
                 <img className='image' src={e.strMealThumb} alt=''></img>
                 <div className='info'>
-                <p className='area'>{e.strArea}</p>
-                <p className='category'>{e.strCategory}</p>
-                <p className='ingredients'>{e.strIngredient1}</p>
-                <p className='ingredients'>{e.strIngredient2}</p>
-                <p className='ingredients'>{e.strIngredient3}</p>
-                <p>Click <a className='recipe' href={e.strSource} target='_blank'>Full Recipe</a> for more</p>
-                </div>
-                <p>{e.strTags}</p>
+                <div className='area'>Origin: {e.strArea}</div>
+                <div className='category'>Category: {e.strCategory}</div>
+                <div className='ing-div'>
+                <p className='ing-title'>Main ingredients:</p>
+                <div className='ingredients'>{e.strIngredient1}</div>
+                <div className='ingredients'>{e.strIngredient2}</div>
+                <div className='ingredients'>{e.strIngredient3}</div>
+                <p className='recipe'>Click <a href={e.strSource} target='_blank'>Full Recipe</a> for more</p>
                 <p>
                     Watch how to video<a className='video' href={e.strYoutube} target='_blank'> here</a>
                 </p>
+                </div>
+                </div>
                 </div>
             ));
           };
