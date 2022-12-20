@@ -27,9 +27,9 @@ const Main = () => {
                 <div className='main' key={e}>
                 <img className='image' src={e.strMealThumb} alt=''></img>
                 <div className='info'>
-                <button className='button' onClick={refreshPage}>Click to reload!</button>
+                <button className='meal-button' onClick={refreshPage}>Next Meal</button>
                 <h1 className='h1-title'>{e.strMeal}</h1>
-                <p>{e.strTags}</p>
+                <p className='tags'>{e.strTags}</p>
                 <hr />
                 <div className='top-info'>
                 <div><span className='area'>Origin:</span>  <br />{e.strArea}</div>
@@ -41,9 +41,9 @@ const Main = () => {
                 <div className='ingredients'>{e.strIngredient2}</div>
                 <div className='ingredients'>{e.strIngredient3}</div>
                 <div className='bottom-btns'>
-                <button className='recipe'><a href={e.strSource} target='_blank'>Full Recipe</a></button>
-                <button>
-                    <a className='video' href={e.strYoutube} target='_blank'><PlayCircle />How-to Video</a>
+                <button className='recipe recipe-btn'><a className='recipe-link' href={e.strSource} target='_blank'>Full Recipe</a></button>
+                <button className='video video-btn'>
+                    <a className='video-link' href={e.strYoutube} target='_blank'><PlayCircle /> How-to Video</a>
                 </button>
                 </div>
                 </div>

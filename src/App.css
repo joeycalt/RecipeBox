@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: rgb(201, 201, 201);
+  background-color: white;
 }
 
 html {
   height: 100%;
   width: 100%;
-  background-color :rgb(201, 201, 201);
+  background-color :white;
 }
 
 .navbar-brand, .nav-link {
@@ -32,17 +32,24 @@ html {
 .image {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   height: 725px;
 }
 
 .info {
   text-align: left;
+  padding: 80px;
 }
 
-.button {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.meal-button {
+  margin-bottom: 40px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  height: 40px;
 }
 
 .main {
@@ -50,10 +57,43 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 
+.tags {
+  font-weight: 600;
+}
+
 .bottom-btns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 70px;
+}
+
+.recipe.recipe-btn {
+  color: white;
+  background-color: black;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  text-decoration: none!important;
+  height: 40px;
+}
+
+a.recipe-link {
+  text-decoration: none!important;
+  color: white!important;
+}
+
+a.video-link {
+  color: black!important;
+}
+
+.video-btn {
+  color: black;
+  background-color: white;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .ing-title {
@@ -75,4 +115,62 @@ html {
 .area {
   font-size: 18px;
   font-weight: 500;
+}
+
+.about-page {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 51vw;
+}
+
+.about-title {
+  color: white;
+  margin-top: 20px;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.about-p {
+  color: white;
+  margin-left: 100px;
+  text-align: left;
+  padding: 20px;
+}
+
+.about-p-2 {
+  color: white;
+  margin-right:  170px;
+  font-size: 22px;
+}
+
+.about-info {
+  padding: 80px;
+}
+
+.shuffler-link {
+  background-color: white;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  margin-right: 120px;
+  height: 40px;
+}
+
+.shuffler-link-a {
+  text-decoration: none;
+  color: black;
+}
+
+.shuffler-link-a:hover {
+  color: black;
+}
+
+.gif {
+  font-size: 60px;
+  color: white;
+  border: 2px solid white;
 }
