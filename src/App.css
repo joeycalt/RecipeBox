@@ -14,7 +14,7 @@ html {
 }
 
 .navbar-expand-lg {
-  background: red!important;
+  background: black!important;
 }
 
 .title {
@@ -24,56 +24,55 @@ html {
 }
 
 .h1-title {
-  color: blue;
-  font-size: 40px;
-  padding-top: 40px;
-  font-weight: 800;
+  color: black;
+  font-size: 60px;
+  font-weight: 400;
 }
 
 .image {
   display: flex;
   flex-direction: column;
-  height: 30%;
-  width: 30%;
-  margin: 80px 0 0 180px;
-  border-radius: 10%;
+  width: 80%;
+  height: 725px;
 }
 
 .info {
-  position: relative;
-  left: 850px;
-  bottom: 300px;
   text-align: left;
 }
 
-.area {
-  font-size: 25px;
-  margin-top: -230px;
-  margin-left: 400px;
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.category {
-  font-size: 25px;
-  margin-left: 430px;
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.ingredients {
-  font-size: 18px;
-}
-
-.recipe {
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-.video {
-
-}
-
-.ing-div {
-  margin-top: -130px;
+.bottom-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
 }
 
 .ing-title {
-  font-size: 25px;
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.top-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.category {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.area {
+  font-size: 18px;
+  font-weight: 500;
 }

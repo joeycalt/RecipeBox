@@ -12,7 +12,7 @@ const Header = () => {
         <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/">
-          <House className='home' />Foodilemma
+          <img src='https://i.im.ge/2022/12/20/qlD2i4.Logo-RecipeBox.png' height='40px' width='140px' alt=''></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
