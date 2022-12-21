@@ -27,6 +27,8 @@ html {
   color: black;
   font-size: 60px;
   font-weight: 400;
+  font-family: 'Jomolhari';
+  line-height: 96px;
 }
 
 .image {
@@ -47,9 +49,13 @@ html {
   color: black;
   border: 1px solid black;
   width: 200px;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
   height: 40px;
+  font-family: 'Roboto';
+  line-height: 19px;
+  letter-spacing: .19em;
+  text-transform: uppercase;
 }
 
 .main {
@@ -58,7 +64,12 @@ html {
 }
 
 .tags {
-  font-weight: 600;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: .19em;
+  text-transform: uppercase;
 }
 
 .bottom-btns {
@@ -81,6 +92,21 @@ html {
 a.recipe-link {
   text-decoration: none!important;
   color: white!important;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+.video-link {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
 }
 
 a.video-link {
@@ -98,8 +124,17 @@ a.video-link {
 
 .ing-title {
   margin-top: 50px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Jomolhari';
+  line-height: 37px;
+}
+
+.ingredients {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
 }
 
 .top-info {
@@ -108,14 +143,26 @@ a.video-link {
 }
 
 .category {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Jomolhari';
+  line-height: 37px;
 }
 
 .area {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Jomolhari';
+  line-height: 37px;
 }
+
+.cat-area-name {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 29px;
+}
+
 
 .about-page {
   background-color: black;
@@ -128,9 +175,12 @@ a.video-link {
   color: white;
   margin-top: 20px;
   font-size: 60px;
+  line-height: 120%;
   text-align: left;
   margin-left: 120px;
   margin-bottom: 50px;
+  font-family: 'Jomolhari';
+  font-weight: 400;
 }
 
 .about-p {
@@ -138,12 +188,19 @@ a.video-link {
   margin-left: 100px;
   text-align: left;
   padding: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: 'Roboto';
+  line-height: 29px;
 }
 
 .about-p-2 {
   color: white;
-  margin-right:  170px;
-  font-size: 22px;
+  margin-right:  140px;
+  font-size: 24px;
+  font-family: 'Jomolhari';
+  font-weight: 400;
+  line-height: 125.16%;
 }
 
 .about-info {
@@ -153,11 +210,28 @@ a.video-link {
 .shuffler-link {
   background-color: white;
   width: 200px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 700;
   border: none;
   margin-right: 120px;
   height: 40px;
+  line-height: 19px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+}
+
+.shuffler-link-2 {
+  background-color: white;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  height: 40px;
+  font-family: 'Roboto';
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.19em;
 }
 
 .shuffler-link-a {
@@ -173,4 +247,47 @@ a.video-link {
   font-size: 60px;
   color: white;
   border: 2px solid white;
+}
+
+.landing {
+  background-color: black;
+  height: 55vw;
+}
+
+.first-title {
+  color: white;
+  font-family: 'Jomolhari';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 125.16%;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+
+.second-title {
+  color: white;
+  font-family: 'Jomolhari';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.landing-info {
+  border: 2px solid white;
+  margin-left: 460px;
+  margin-right: 460px;
+  height: 400px;
+  padding: 100px;
+}
+
+.space {
+  background-color: black;
+  padding: 80px;
+}
+
+a.nav-link {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-weight: 700;
 }
