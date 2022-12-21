@@ -225,7 +225,7 @@ a.video-link {
   background-color: white;
   width: 200px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 700!important;
   border: none;
   height: 40px;
   font-family: 'Roboto';
@@ -290,4 +290,5 @@ a.nav-link {
   font-family: 'Roboto';
   text-transform: uppercase;
   font-weight: 700;
+  letter-spacing: 0.19em
 }
