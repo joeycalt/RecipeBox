@@ -301,7 +301,7 @@ a.nav-link {
   .landing-info {
     border: 2px solid white;
     height: 300px!important;
-    margin: -600px 15px 0 15px!important;
+    margin: -600px 35px 0 35px!important;
     padding-left: 100px;
   }
 
@@ -309,8 +309,9 @@ a.nav-link {
     color: white;
     font-family: 'Jomolhari';
     font-weight: 400;
-    font-size: 20px!important;
-    margin: -55px 0 20px 0;
+    font-size: 18px!important;
+    width: 200px;
+    margin: -55px 0 20px -40px;
     padding: 0!important;
   }
   
@@ -318,7 +319,7 @@ a.nav-link {
     color: white;
     font-family: 'Jomolhari';
     font-weight: 400;
-    font-size: 23px!important;
+    font-size: 26px!important;
     margin: 0 0 20px 0;
     padding: 0;
   }
@@ -332,6 +333,7 @@ a.nav-link {
     height: 40px;
     font-family: 'Roboto';
     text-transform: uppercase;
+    margin-left: -20px;
   }
 
   .space {
@@ -359,12 +361,12 @@ a.nav-link {
   }
 
   hr {
-    width: 70%;
+    width: 80%;
   }
 
   .info {
     text-align: left;
-    padding: 20px;
+    padding: 20px 0 0 10px!important;
   }
 
   .meal-button {
@@ -449,8 +451,8 @@ a.nav-link {
 
   .image {
     float: right;
-    width: 92.9%;
-    height: 225px;
+    width: 100%;
+    height: 300px;
     overflow: none;
   }
 
@@ -458,5 +460,86 @@ a.nav-link {
     display: grid;
     grid-template-columns: 1fr;
     overflow: none;
+  }
+
+  .about-title {
+    color: white;
+    margin-top: 20px;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-family: 'Jomolhari';
+    font-weight: 400;
+    width: 80%;
+  }
+  
+  .about-info {
+    padding: 0px;
+    background-color: black;
+  }
+
+  .gif-image {
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    height: 390px;
+    width: 390px;
+  }
+
+  .gif {
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    border: none;
+  }
+
+  .about-page {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 51vw;
+  }
+
+  .about-p {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 29px;
+    margin: 0;
+  }
+
+  .about-p-2 {
+    color: white;
+    margin-right:  170px;
+    font-size: 24px;
+    font-family: 'Jomolhari';
+    font-weight: 400;
+    line-height: 125.16%;
+  }
+
+  .shuffler-link {
+    background-color: white;
+    color: white;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin: 0 150px 0 0;
+    height: 40px;
+    line-height: 19px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    margin-bottom: 45px;
+  }
+
+  .shuffler-link-a {
+    text-decoration: none;
+    color: black;
   }
 }

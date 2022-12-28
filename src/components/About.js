@@ -15,8 +15,8 @@ const About = () => {
             <Link className='shuffler-link-a' to='/shuffler'>Let's get cooking</Link>
         </button>
     </div>
-        <div className=''>
-            <img src='https://i.im.ge/2022/12/21/qdELZp.ezgif-com-gif-maker.gif' alt=''></img>
+        <div className='gif'>
+            <img className='gif-image' src='https://i.im.ge/2022/12/21/qdELZp.ezgif-com-gif-maker.gif' alt=''></img>
           
         </div>
         </div>
